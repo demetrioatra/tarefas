@@ -1,0 +1,47 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: 300px;
+    padding: 1.5%;
+    border-radius: 20px; 
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.formulario label {
+    font-size: 20px;
+    margin-bottom: 1.5%;
+}
+
+.formulario input, textarea {
+    width: 100%;
+    height: 40px;
+    padding: 1%;
+    border-radius: 10px;
+    border: 0.5px solid #000;
+}
+
+.formulario button {
+    margin-top: 3%;
+    width: 100%;
+    height: 40px;
+    padding: 1.5%;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+}
+
+.formulario button:hover {
+    background-color: gray;
+}
